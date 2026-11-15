@@ -1,30 +1,36 @@
 #EXTM3U
 
-# --- ANIPLUS & ANIMAX (ASIA & GLOBAL) ---
-#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" group-title="Anime & Japan",Aniplus Asia (Amagi Optimized ~2.6 Mbps)
+# ==========================================
+# ANIPLUS (Jalur Upstream / Maxstream Source)
+# ==========================================
+
+#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Aniplus_Asia_logo.svg/512px-Aniplus_Asia_logo.svg.png" group-title="Anime (Maxstream/ID)",Aniplus Asia (Maxstream Node Direct ~2.6 Mbps)
 https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/chunklist_b2600000.m3u8
 
-#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" group-title="Anime & Japan",Aniplus Asia (Master Adaptive Backup)
+#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Aniplus_Asia_logo.svg/512px-Aniplus_Asia_logo.svg.png" group-title="Anime (Maxstream/ID)",Aniplus Asia (Telkomsel CDN / Akamaized Backup)
+https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel/aniplus/index.m3u8
+
+#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Aniplus_Asia_logo.svg/512px-Aniplus_Asia_logo.svg.png" group-title="Anime (Maxstream/ID)",Aniplus Asia (Indo Local Node Classic)
+http://210.210.155.35/dr9445/h/h02/01.m3u8
+
+
+# ==========================================
+# ANIMAX (Jalur Upstream / Vision+ Source)
+# ==========================================
+
+#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Animax_Asia_logo_2020.svg/512px-Animax_Asia_logo_2020.svg.png" group-title="Anime (Vision+/ID)",Animax Asia (Vision+ CDN Node)
 https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" group-title="Anime & Japan",Animax Asia (Node Alternatif 1)
-http://210.210.155.35/dr9445/h/h02/index.m3u8
-
-#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" group-title="Anime & Japan",Animax Asia (Node Alternatif 2)
+#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Animax_Asia_logo_2020.svg/512px-Animax_Asia_logo_2020.svg.png" group-title="Anime (Vision+/ID)",Animax Asia (MNC Vision Alternative Node)
 http://45.126.83.51/dr9445/h/h02/01.m3u8
 
-# --- TV NIHON & JAPANESE GLOBAL / TOKUSATSU CHANNELS ---
-#EXTINF:-1 tvg-id="TVNihon.jp" tvg-name="TV Nihon Stream" group-title="Anime & Japan",TV Nihon Global Stream
-https://live.tvnihon.com/hls/livestream.m3u8
 
-#EXTINF:-1 tvg-id="HeroTV.ph" tvg-name="Hero TV" group-title="Anime & Japan",Hero TV Asia
-https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
+# ==========================================
+# BONUS: GLOBAL ANIME CHANNELS (LOW BITRATE)
+# ==========================================
 
-#EXTINF:-1 tvg-id="AnimeChannel.us" tvg-name="Retro Crush" group-title="Anime & Japan",Retro Crush (Classic Anime FAST Channel)
+#EXTINF:-1 tvg-id="RetroCrush.us" tvg-name="Retro Crush" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/RetroCrush_logo.png/512px-RetroCrush_logo.png" group-title="Global Anime",Retro Crush FAST
 https://linear-141.frequency.stream/dist/frequency/linear-141/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AnimeChannel.us" tvg-name="Midnight Pulp Anime" group-title="Anime & Japan",Midnight Pulp Anime FAST
-https://linear-428.frequency.stream/dist/frequency/linear-428/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Crunchyroll.us" tvg-name="Crunchyroll Channel" group-title="Anime & Japan",Crunchyroll Channel (FAST)
+#EXTINF:-1 tvg-id="Crunchyroll.us" tvg-name="Crunchyroll Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Crunchyroll_Logo.png/512px-Crunchyroll_Logo.png" group-title="Global Anime",Crunchyroll FAST
 https://dai.google.com/linear/hls/event/t5Q_Zq40SYG2vW5Y1ZqX5A/master.m3u8
