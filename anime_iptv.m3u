@@ -1,0 +1,13 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" group-title="Anime & Asia",Aniplus Asia (Lightweight ~2.6 Mbps)
+https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/chunklist_b2600000.m3u8
+
+#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" group-title="Anime & Asia",Aniplus Asia (Backup Master Adaptive)
+https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" group-title="Anime & Asia",Animax Asia (Alt Node 1)
+http://210.210.155.35/dr9445/h/h02/index.m3u8
+
+#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" group-title="Anime & Asia",Animax Asia (Alt Node 2)
+http://45.126.83.51/dr9445/h/h02/01.m3u8
