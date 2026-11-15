@@ -1,13 +1,30 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" group-title="Anime & Asia",Aniplus Asia (Lightweight ~2.6 Mbps)
+# --- ANIPLUS & ANIMAX (ASIA & GLOBAL) ---
+#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" group-title="Anime & Japan",Aniplus Asia (Amagi Optimized ~2.6 Mbps)
 https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/chunklist_b2600000.m3u8
 
-#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" group-title="Anime & Asia",Aniplus Asia (Backup Master Adaptive)
+#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus Asia" group-title="Anime & Japan",Aniplus Asia (Master Adaptive Backup)
 https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" group-title="Anime & Asia",Animax Asia (Alt Node 1)
+#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" group-title="Anime & Japan",Animax Asia (Node Alternatif 1)
 http://210.210.155.35/dr9445/h/h02/index.m3u8
 
-#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" group-title="Anime & Asia",Animax Asia (Alt Node 2)
+#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax Asia" group-title="Anime & Japan",Animax Asia (Node Alternatif 2)
 http://45.126.83.51/dr9445/h/h02/01.m3u8
+
+# --- TV NIHON & JAPANESE GLOBAL / TOKUSATSU CHANNELS ---
+#EXTINF:-1 tvg-id="TVNihon.jp" tvg-name="TV Nihon Stream" group-title="Anime & Japan",TV Nihon Global Stream
+https://live.tvnihon.com/hls/livestream.m3u8
+
+#EXTINF:-1 tvg-id="HeroTV.ph" tvg-name="Hero TV" group-title="Anime & Japan",Hero TV Asia
+https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AnimeChannel.us" tvg-name="Retro Crush" group-title="Anime & Japan",Retro Crush (Classic Anime FAST Channel)
+https://linear-141.frequency.stream/dist/frequency/linear-141/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AnimeChannel.us" tvg-name="Midnight Pulp Anime" group-title="Anime & Japan",Midnight Pulp Anime FAST
+https://linear-428.frequency.stream/dist/frequency/linear-428/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Crunchyroll.us" tvg-name="Crunchyroll Channel" group-title="Anime & Japan",Crunchyroll Channel (FAST)
+https://dai.google.com/linear/hls/event/t5Q_Zq40SYG2vW5Y1ZqX5A/master.m3u8
